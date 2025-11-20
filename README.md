@@ -12,47 +12,49 @@
 
 ## What is this?
 
-**MoonGUI** é um framework moderno para aplicações Lua. Ele utiliza o JavaFX como backend no projeto. Este sistema resolve 99% dos problemas de GUI com Lua, caso você seja um programador Lua e não ache bibliotecas de GUI. Este projeto ainda está em **BETA**, ou seja, **pode não funcionar como esperado**.
+**MoonGUI** is a modern framework for Lua applications. It uses JavaFX as its backend.  
+This system solves almost all GUI-related problems for Lua developers who don't have access to a native GUI toolkit.  
+This project is still in **BETA**, which means **it may not work as expected**.
 
 ## How to use
 
-Para utilizar o MoonGUI você pode utilizar o `.exe` dele ou utilizar como variável de ambiente `moongui` e o nome do arquivo.
+To use MoonGUI, you can either run the provided `.exe` or set `moongui` as a system environment command.
 
-Para ver a versão:
+Check the version:
 
 ```shell
 moongui -v
-```
+````
 
-Menu de ajuda:
+Help menu:
 
 ```shell
 moongui -h
 ```
 
-Executar sua aplicação moongui:
+Run your MoonGUI application:
 
 ```shell
 moongui <filename.lua>
 ```
 
-## Requisitos
+## Requirements
 
-Você não precisa de Java ou JavaFX para usar a CLI (o .exe no caso). Porém, para build e modificação do MoonGUI, será necessário:
-
+You don’t need Java or JavaFX to use the CLI (`.exe`).
+However, to build or modify MoonGUI, the following are required:
 
 | Requirement | Version |
-|----------|---------|
-| Java     | 21+     |
-| JavaFX   | 21+     |
-| Maven    | 3.5.8+  |
+| ----------- | ------- |
+| Java        | 21+     |
+| JavaFX      | 21+     |
+| Maven       | 3.5.8+  |
 
-> OBS: Utilizar uma versão abaixo das recomendadas pode fazer com que não compile nem rode.
+> Note: Using a version below the recommended ones may prevent the project from compiling or running.
 
 ## License
 
-License MIT
+MIT License
 
 ## Made by
 
-Este programa foi feito com ☕ por [Theuzz Dev](https://github.com/mazinn444/mazinn444)
+This program was made with ☕ by [Theuzz Dev](https://github.com/mazinn444/mazinn444)
