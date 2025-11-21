@@ -46,11 +46,16 @@ moongui <filename.lua>
 You don’t need Java or JavaFX to use the CLI (`.exe`).
 However, to build or modify MoonGUI, the following are required:
 
+<div align="center">
+
 | Requirement | Version |
 | ----------- | ------- |
 | Java        | 21+     |
 | JavaFX      | 21+     |
 | Maven       | 3.5.8+  |
+| Lua       | 5.2+  |
+
+</div>
 
 > Note: Using a version below the recommended ones may prevent the project from compiling or running.
 
