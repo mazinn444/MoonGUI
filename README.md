@@ -53,7 +53,7 @@ However, to build or modify MoonGUI, the following are required:
 
 ## License
 
-MIT License
+[MIT License](LICENSE)
 
 ## Made by
 
