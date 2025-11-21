@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="docs/static/logo.png" alt="MoonGUI Logo" width="180">
+</p>
 <h1 align="center">MoonGUI</h1>
 
 <div align="center">
