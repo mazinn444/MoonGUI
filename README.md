@@ -60,4 +60,5 @@ However, to build or modify MoonGUI, the following are required:
 
 ## Made by
 
-This program was made with ☕ by [Theuzz Dev](https://github.com/mazinn444/mazinn444)
+This program was made with ☕ by [Theuzz Dev](https://github.com/mazinn444/mazinn444) from *🇧🇷*
+
