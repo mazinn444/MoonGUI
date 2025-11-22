@@ -7,7 +7,7 @@
 
 ![Java 21+](https://img.shields.io/badge/Java-21%2B-007396?style=for-the-badge&logo=java)
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=github)
-![Version](https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.1.2-brightgreen?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/mazinn444/MoonGUI?style=for-the-badge)
 
 </div>
