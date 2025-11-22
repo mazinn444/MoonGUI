@@ -14,7 +14,7 @@ import java.util.List;
 
 public class MainApp extends Application {
 
-    private final static String PROGRAM_VERSION = "1.0.0";
+    private final static String PROGRAM_VERSION = "1.1.2";
 
     @Override
     public void start(Stage primaryStage) {
