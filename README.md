@@ -42,6 +42,20 @@ Run your MoonGUI application:
 moongui <filename.lua>
 ```
 
+## Images from app
+
+- Coding (VS Code recognizes!)
+<p align="center"><img width="715" height="661" alt="image" src="https://github.com/user-attachments/assets/a403a099-6f15-4dce-95a2-8e327193d54b" /></p>
+
+- App Example
+<p align="center"><img width="402" height="532" alt="image" src="https://github.com/user-attachments/assets/957e6afc-b136-4812-b41d-3b70d36633a1" /></p>
+
+- Video Using
+
+https://github.com/user-attachments/assets/bf1e7ba0-0284-49d9-8903-f7612bdfcf21
+
+
+
 ## Requirements
 
 You don’t need Java or JavaFX to use the CLI (`.exe`).
