@@ -2,7 +2,9 @@ package com.moongui.components;
 
 import javafx.application.Platform;
 import javafx.scene.Node;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.Region;
+import org.luaj.vm2.LuaValue;
 
 public abstract class UIComponent {
 
@@ -43,25 +45,24 @@ public abstract class UIComponent {
         Platform.runLater(() -> getNode().setId(id));
     }
 
-    public double getX() {
-        return getNode().getLayoutX();
+    public void OnKeyPress(LuaValue callback) {
+        getNode().setOnKeyPressed((KeyEvent e) -> {
+            try {
+                if (callback != null && !callback.isnil()) {
+                    callback.call(LuaValue.valueOf(e.getCode().toString()));
+                }
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+        });
     }
 
-    public double getY() {
-        return getNode().getLayoutY();
-    }
-
+    public double getX() { return getNode().getLayoutX(); }
+    public double getY() { return getNode().getLayoutY(); }
     public double getWidth() {
-        if (getNode() instanceof Region) {
-            return ((Region) getNode()).getWidth();
-        }
-        return 0;
+        return (getNode() instanceof Region) ? ((Region) getNode()).getWidth() : 0;
     }
-
     public double getHeight() {
-        if (getNode() instanceof Region) {
-            return ((Region) getNode()).getHeight();
-        }
-        return 0;
+        return (getNode() instanceof Region) ? ((Region) getNode()).getHeight() : 0;
     }
 }

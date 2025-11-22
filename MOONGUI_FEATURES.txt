@@ -1,0 +1,38 @@
+MOONGUI
+
+VERSION: 1.1.2
+SNAPSHOT: BETA
+
+CHANGELOGS (1.1.2):
+
+[NEW FEATURES]
++ Automatic Layout System:
+  - Added `MoonGUI:VBox()` (Vertical Layout)
+  - Added `MoonGUI:HBox()` (Horizontal Layout)
+  - New methods: `:setSpacing(pixels)` and `:setAlignment(position)` (e.g., "CENTER", "TOP_LEFT").
+  - No longer requires manual X/Y calculation for complex UIs.
+
++ Networking & Data:
+  - Added `MoonGUI:HTTP_Get(url, callback)`: Asynchronous HTTP requests to fetch data from the web.
+  - Added `MoonGUI:JSON_Parse(jsonString)`: Automatically converts JSON strings/arrays into Lua Tables.
+
++ Navigation:
+  - Added `MoonGUI:MenuBar()`: Native top-level menu support.
+  - Support for nested menus and action callbacks.
+
++ Input Handling:
+  - Added `:OnKeyPress(callback)` to all components.
+  - Allows capturing specific keys (e.g., detecting "ENTER" key on TextFields).
+
+[IMPROVEMENTS]
++ Window Management:
+  - Added `:setIcon(path)`: Allows setting a custom application icon (.png/.jpg).
+  - Added `:loadCSS(path)`: Support for loading external `.css` files for advanced styling.
+  
++ Core:
+  - Integrated `org.json` library for robust JSON handling.
+  - Improved thread safety for HTTP callbacks (UI updates automatically run on JavaFX thread).
+
+[BUG FIXES]
+- Fixed issue where JavaFX would close implicitly if no window was active immediately.
+- Improved error handling for invalid CSS properties.
