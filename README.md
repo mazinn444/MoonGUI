@@ -78,6 +78,24 @@ However, to build or modify MoonGUI, the following are required:
 
 [MIT License](LICENSE)
 
+## Star History
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/svg?repos=mazinn444/MoonGUI&type=Date&theme=dark"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/svg?repos=mazinn444/MoonGUI&type=Date"
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=mazinn444/MoonGUI&type=Date"
+  />
+</picture>
+
+
 ## Made by
 
 This program was made with ☕ by [Theuzz Dev](https://github.com/mazinn444/mazinn444) from *🇧🇷*
